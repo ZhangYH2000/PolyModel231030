@@ -1,0 +1,53 @@
+title $3D 模型编辑器$ $3D Model Editor$
+frm_tm $[ZhangYH] 帧时间: $ $[ZhangYH] Frame Time: $
+bt_save $保存$ $Save$
+bt_load $载入$ $Load$
+fpn_global $全局$ $Global$
+compile $解释并运行$ $Interpret & Run$
+fpn_cmd $指令$ $Command$
+unnamed_par $未命名$ $Unnamed$
+bt_del_par $删除$ $Del.$
+bt_add_par $新建参数$ $Create Param.$
+fpn_par $参数$ $Parameters$
+fpn_lang $语言/Lang.$ $Language$
+fpn_about $关于$ $About$
+bt_main_menu $主菜单$ $Main Menu$
+bt_mode $模式$ $Mode$
+bt_mode_geo $几何体$ $Geometry$
+bt_mode_vert $顶点$ $Vertex$
+bt_mode_edge $边$ $Edge$
+bt_mode_face $面$ $Face$
+bt_mode_col $颜色$ $Color$
+bt_tool $工具$ $Tool$
+bt_select $选择$ $Select$
+bt_move $移动$ $Move$
+bt_scale $放缩$ $Scale$
+bt_rotate $旋转$ $Rotate$
+bt_extrude $挤出$ $Extrude$
+bt_inset $内插$ $Inset$
+bt_loop_cut $环切$ $Loop Cut$
+bt_bevel $倒角$ $Bevel$
+bt_knife $切割$ $Knife$
+fpn_col $颜色$ $Color$
+dbx_r_col $红色: $ $R.: $
+dbx_g_col $绿色: $ $G.: $
+dbx_b_col $蓝色: $ $B.: $
+mute $静音$ $Mute$
+unmute $解除静音$ $Unmute$
+bt_reset $重置$ $Reset$
+
+about_txt
+$这是一个简单的多边形建模程序. 用户可以用鼠标拖拽的方式来编辑 3D 模型. 支持选取点线面体, 并进行移动, 旋转, 放缩, 挤出, 内插, 倒角, 合并点, 融并线面, 切割, 细分, Catmull-Clark 细分等操作.
+
+下面是操作说明. 一般情况下, 用 [鼠标左键] 选定对象, 用 [鼠标中键], [鼠标右键] 和 [鼠标滚轮] 来改变摄像机的方位. 用 [V] 选定点, 用 [E] 选定边, 用 [F] 选定面, 用 [G] 选定体. 用 [B] 创建新正方体, 用 [M] 合并点, 用 [D] 融并线面, 用 [S] 细分, 用 [C] 进行 Catmull-Clark 细分, 用 [R] 切换渲染模式, 用 [Del] 删除体.
+
+这个程序只实现了多边形建模的很少一部分操作, 而即使已经实现的这些操作, 跟市面上建模软件 (比如 Blender) 相比也有许多瑕疵. 另外在渲染模型时, 三角形之间会出现间隙, 同时在绘制带边的面时也会出现问题. 这个程序也可能有 bug.
+
+这个程序缺少教程, 你可以加载程序文件夹中的存档文件进行参考, 如有需要也可以直接联系我. 我写这个程序只是出于学习目的, 感兴趣的话非常欢迎在我的 itch.io 页面进行评论. (2023/11/24)$
+$This is a simple polygon modeling program. Users can edit 3D models by dragging with the mouse. It supports selecting points, lines, faces, and bodies for operations such as translation, rotation, scaling, extrusion, interpolation, chamfering, merging points, merging lines and faces, cutting, subdivision, Catmull-Clark subdivision, and more.
+
+Below are the operation instructions. In general, use the [left mouse button] to select objects, and the [middle mouse button], [right mouse button], and [mouse wheel] to change the camera's orientation. Use [V] to select points, [E] to select edges, [F] to select faces, and [G] to select bodies. Use [B] to create a new cube, [M] to merge points, [D] to merge lines and faces, [S] to subdivide, [C] for Catmull-Clark subdivision, [R] to toggle rendering mode, and [Del] to delete bodies.
+
+This program implements only a small portion of polygon modeling operations. Even for the operations that have been implemented, there are many flaws compared to mainstream modeling software (such as Blender). Gaps may appear between triangles during model rendering, and there may be issues when drawing faces with edges. The program may also have bugs.
+
+The program lacks a tutorial. You can refer to the saved files in the program folder for guidance, and feel free to contact me directly if needed. I developed this program for learning purposes, and if you are interested, I welcome comments on my itch.io page. (2023/11/24)$
